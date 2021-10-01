@@ -6,7 +6,7 @@ public class Vendedor extends Empregado {
 	private double comissao;
 	
 	public double calcularSalario(double valor) {
-		return valor + comissao;
+		return (super.getSalarioBase() + this.valorVendas) - (super.getSalarioBase() * (super.getImposto()/100));
 	}
 	
 	/* Getters and Setters */

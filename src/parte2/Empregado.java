@@ -6,8 +6,8 @@ public class Empregado extends Pessoa {
 	private double salarioBase;
 	private double imposto;
 	
-	private double calcularSalario(double valor) {
-		return valor;
+	private double calcularSalario() {
+		return this.salarioBase - (this.salarioBase * (this.imposto / 100));
 	}
 	
 	/* Getters and Setters */

@@ -1,6 +1,6 @@
 package parte2;
 
-public class Pessoa {
+public abstract class Pessoa {
 	private String pessoa;
 	private String endereco;
 	private String telefone;

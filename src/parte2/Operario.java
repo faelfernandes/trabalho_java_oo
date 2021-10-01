@@ -5,8 +5,8 @@ public class Operario extends Empregado {
 	private double valorProducao;
 	private double comissao;
 	
-	private double calcularSalario(double valor) {
-		return valor +  this.getComissao();
+	private double calcularSalario() {
+		return (super.getSalarioBase() + this.comissao) - (super.getSalarioBase() * (super.getImposto()/100));	
 	}
 	
 	/* Getters and Setters */
