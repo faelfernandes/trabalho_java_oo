@@ -1,15 +1,16 @@
 package trabalhoav1;
 
-public class Gerente extends Empregado{
+/**
+ * Classe Gerente
+ * @author Rafael
+ * @version 1.0
+ */
+public class Gerente extends Empregado {
 	
 	private String nomeGerencia;
-
-	public String getNomeGerencia() {
-		return nomeGerencia;
-	}
-
-	public void setNomeGerencia(String nomeGerencia) {
-		this.nomeGerencia = nomeGerencia;
+	
+	private double valorInss(double valor) {
+		return (valor * (valor / 13));
 	}
 	
 	public void getInfo() {
@@ -18,6 +19,17 @@ public class Gerente extends Empregado{
 		System.out.println("Sexo: " + this.getSexo());
 		System.out.println("Setor: " + this.getNomeGerencia());
 		System.out.println("Salario: " + this.getSalario());
+		System.out.println("Valor Inss: " + this.valorInss(this.getSalario()));
 		System.out.println("Matricula: " + this.getMatricula());
+	}
+
+	/* Getters and Setters */
+	
+	public String getNomeGerencia() {
+		return nomeGerencia;
+	}
+
+	public void setNomeGerencia(String nomeGerencia) {
+		this.nomeGerencia = nomeGerencia;
 	}
 }

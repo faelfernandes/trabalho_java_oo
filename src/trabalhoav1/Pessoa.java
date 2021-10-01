@@ -1,10 +1,17 @@
 package trabalhoav1;
 
+/**
+ * Classe Pessoa
+ * @author Rafael
+ * @version 1.0
+ */
 public class Pessoa {
 	
 	private String nome;
 	private int idade;
 	private String sexo;
+	
+	/* Getters and Setters */
 	
 	public String getNome() {
 		return nome;
