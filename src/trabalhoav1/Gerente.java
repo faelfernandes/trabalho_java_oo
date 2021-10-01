@@ -16,6 +16,7 @@ public class Gerente extends Empregado{
 		System.out.println("Nome: " + this.getNome());
 		System.out.println("Idade: " + this.getIdade());
 		System.out.println("Sexo: " + this.getSexo());
+		System.out.println("Setor: " + this.getNomeGerencia());
 		System.out.println("Salario: " + this.getSalario());
 		System.out.println("Matricula: " + this.getMatricula());
 	}

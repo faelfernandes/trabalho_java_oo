@@ -5,6 +5,8 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		/* ---- Classe Gerente ---- */
+		
 		System.out.println("Iniciando Projeto");
 		System.out.println("------------------------");
 		System.out.println("---- Classe Gerente ----");
@@ -14,10 +16,13 @@ public class Principal {
 		gerente1.setNome("Rafael Fernandes");
 		gerente1.setIdade(21);
 		gerente1.setSexo("Masculino");
+		gerente1.setSexo("Vendas");
 		gerente1.setSalario(2000.00);
 		gerente1.setMatricula("0123");
 		
 		gerente1.getInfo();
+		
+		/* ---- Classe Gerente ---- */
 		
 		System.out.println("------------------------");
 		System.out.println("---- Classe Gerente ----");
@@ -32,6 +37,10 @@ public class Principal {
 		vendedor1.setValorVendas(50);
 		vendedor1.setQntVendas(10);
 		
+		vendedor1.getInfo();
+		
+		/* ---- Classe Gerente ---- */
+		
 		System.out.println("------------------------");
 		System.out.println("---- Classe Gerente ----");
 		System.out.println("------------------------");
@@ -43,9 +52,9 @@ public class Principal {
 		cliente1.setValorDivida(800);
 		cliente1.setAnoNascimento(2000);
 		
+		cliente1.getInfo();
+		
 		System.out.println("-------------------------");
-		
-		
 		
 	}
 

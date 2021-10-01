@@ -20,5 +20,12 @@ public class Cliente extends Pessoa{
 	public int getAnoNascimento() {
 		return anoNascimento;
 	}
-
+	
+	public void getInfo() {
+		System.out.println("Nome: " + this.getNome());
+		System.out.println("Idade: " + this.getIdade());
+		System.out.println("Sexo: " + this.getSexo());
+		System.out.println("Valor divida: " + this.getValorDivida());
+		System.out.println("Ano nascimento: " + this.getAnoNascimento());
+	}
 }
