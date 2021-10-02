@@ -1,8 +1,12 @@
-package trabalhoav1;
+package parte1;
 
 /**
- * Classe Principal
- * @author Rafael
+ * Classe Cliente
+ * @author Rafael Fernandes
+ * @author Dhionathan Jobim
+ * @author Marcos Muller
+ * @author Sara Mageste
+ * @author César Augusto
  * @version 1.0
  */
 public class Principal {

@@ -1,15 +1,19 @@
-package trabalhoav1;
+package parte1;
 
 /**
  * Classe Cliente
- * @author Rafael
+ * @author Rafael Fernandes
+ * @author Dhionathan Jobim
+ * @author Marcos Muller
+ * @author Sara Mageste
+ * @author César Augusto
  * @version 1.0
  */
 public class Cliente extends Pessoa{
 	
 	private double valorDivida;
 	private int anoNascimento;
-	
+
 	public void getInfo() {
 		System.out.println("Nome: " + this.getNome());
 		System.out.println("Idade: " + this.getIdade());

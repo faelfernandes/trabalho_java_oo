@@ -6,7 +6,16 @@ public class Operario extends Empregado {
 	private double comissao;
 	
 	private double calcularSalario() {
-		return (super.getSalarioBase() + this.comissao) - (super.getSalarioBase() * (super.getImposto()/100));	
+		return super.getSalarioBase() - ((super.getImposto() / 100) * super.getSalarioBase()) + ((this.comissao / 100) * this.getValorProducao());
+	}
+	
+	public void getInfo() {
+	    System.out.println("Nome Completo: " + this.getNome());
+	    System.out.println("Codigo do Setor: " + this.getCodigoSetor());
+	    System.out.println("Telefone: " + this.getTelefone());
+	    System.out.println("Endereço: " + this.getEndereco());
+	    System.out.println("Salario Bruto: " + this.getSalarioBase());
+	    System.out.println("Salario Líquido: " + this.calcularSalario());
 	}
 	
 	/* Getters and Setters */

@@ -9,6 +9,13 @@ public class Fornecedor extends Pessoa {
 		return (this.getValorCredito() - this.getValorDivida());
 	}
 	
+	public void getInfo() {
+	    System.out.println("Nome Completo: " + this.getNome());
+	    System.out.println("Telefone: " + this.getTelefone());
+	    System.out.println("Endereço: " + this.getEndereco());
+	    System.out.println("Saldo: " + this.obterSaldo());
+	}
+	
 	/* Getters and Setters */
 	
 	public double getValorCredito() {

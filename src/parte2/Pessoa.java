@@ -1,17 +1,17 @@
 package parte2;
 
 public abstract class Pessoa {
-	private String pessoa;
+	private String nome;
 	private String endereco;
 	private String telefone;
 	
 	/* Getters and Setters */
 	
-	public String getPessoa() {
-		return pessoa;
+	public String getNome() {
+		return nome;
 	}
-	public void setPessoa(String pessoa) {
-		this.pessoa = pessoa;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	public String getEndereco() {
 		return endereco;
