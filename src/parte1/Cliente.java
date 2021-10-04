@@ -9,7 +9,7 @@ package parte1;
  * @author César Augusto
  * @version 1.0
  */
-public class Cliente extends Pessoa{
+public class Cliente extends Pessoa {
 	
 	private double valorDivida;
 	private int anoNascimento;

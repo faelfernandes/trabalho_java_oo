@@ -1,5 +1,14 @@
 package parte2;
 
+/**
+ * Classe Administrador
+ * @author Rafael Fernandes
+ * @author Dhionathan Jobim
+ * @author Marcos Muller
+ * @author Sara Mageste
+ * @author César Augusto
+ * @version 1.0
+ */
 public class Administrador extends Empregado {
 	
 	private double ajudaDeCusto;

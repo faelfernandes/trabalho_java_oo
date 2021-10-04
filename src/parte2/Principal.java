@@ -1,7 +1,7 @@
 package parte2;
 
 /**
- * Classe Cliente
+ * Classe Principal
  * @author Rafael Fernandes
  * @author Dhionathan Jobim
  * @author Marcos Muller
@@ -16,7 +16,7 @@ public class Principal {
 		/* ---- Classe Administrador ---- */
 		
 		System.out.println("------------------------");
-		System.out.println("Iniciando Projeto");
+		System.out.println("#  Iniciando Projeto   #");
 		System.out.println("------------------------");
 		System.out.println("- Classe Administrador -");
 		System.out.println("------------------------");

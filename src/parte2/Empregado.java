@@ -1,5 +1,14 @@
 package parte2;
 
+/**
+ * Classe Empregado
+ * @author Rafael Fernandes
+ * @author Dhionathan Jobim
+ * @author Marcos Muller
+ * @author Sara Mageste
+ * @author César Augusto
+ * @version 1.0
+ */
 public class Empregado extends Pessoa {
 	
 	private int codigoSetor;

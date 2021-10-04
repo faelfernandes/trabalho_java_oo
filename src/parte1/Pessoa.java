@@ -1,7 +1,7 @@
 package parte1;
 
 /**
- * Classe Cliente
+ * Classe Pessoa
  * @author Rafael Fernandes
  * @author Dhionathan Jobim
  * @author Marcos Muller
@@ -9,7 +9,7 @@ package parte1;
  * @author César Augusto
  * @version 1.0
  */
-public class Pessoa {
+public abstract class Pessoa {
 	
 	private String nome;
 	private int idade;

@@ -1,7 +1,7 @@
 package parte1;
 
 /**
- * Classe Cliente
+ * Classe Empregado
  * @author Rafael Fernandes
  * @author Dhionathan Jobim
  * @author Marcos Muller

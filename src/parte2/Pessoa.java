@@ -1,5 +1,14 @@
 package parte2;
 
+/**
+ * Classe Pessoa
+ * @author Rafael Fernandes
+ * @author Dhionathan Jobim
+ * @author Marcos Muller
+ * @author Sara Mageste
+ * @author César Augusto
+ * @version 1.0
+ */
 public abstract class Pessoa {
 	private String nome;
 	private String endereco;
